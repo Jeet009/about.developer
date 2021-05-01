@@ -1,13 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.canvas {
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+}
+.canvas-dark {
+  background-color: rgb(58, 58, 58);
+  padding-bottom: 20px;
+}
+.hero-image {
+  background-image: url("https://images.pexels.com/photos/4709290/pexels-photo-4709290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center bottom;
+  min-height: 85vh;
+}
+
+.overlay {
+  background-color: rgba(53, 53, 53, 0.726);
+  min-height: 85vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.overlay-dark {
+  background-color: rgba(17, 17, 17, 0.719);
+  min-height: 85vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.about-details {
+  margin-top: -150px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+.about-details-dark {
+  margin-top: -150px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.fa {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.btn-floating {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.btn-floating:hover {
+  background-color: black;
+  color: white;
 }
